@@ -1,0 +1,104 @@
+input
+{
+	width:13.18em;
+	outline: none;
+    border: 0px solid #000000;
+    border-bottom-width: 5px;
+    background-color: transparent;
+	font-size:125%;
+	font-family: "Nevis";
+	-webkit-transition: border-color 0.25s, box-shadow 0.25s; /* Safari */
+    transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+input:hover, input:focus
+{
+   border-color: #00ff83;
+}
+
+.centerWrapper{
+	margin-top: 15vh;
+
+}
+
+.select-club-title{
+	margin-bottom:.5em;
+	color:#000;
+}
+
+.clubList{
+	position:relative;
+	top:3vh;
+	font-family:"Arial";
+	font-size:150%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-height:55vh;
+	height:0%;
+}
+
+.clubLink{
+	float:none;
+	color:#000;
+}
+
+.wrapInner{
+	opacity: 0;
+	transition: opacity 0.15s;
+	z-index: -100;
+	width: 100%;
+	left:0;
+	display:inline-flex;
+	display:-webkit-inline-flex; /* Safari */
+	height: 36px;
+	position:absolute;
+	background-image: linear-gradient(to right, rgba(255,255,255,0) 10%, #d87b7b	 40%,#d87b7b 60%, rgba(255,255,255,0) 90%);
+}
+
+.clubLink:hover .wrapInner{
+	opacity:1;
+}
+
+.clubLink{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:.5em;
+	max-width:20em;
+	cursor: pointer;
+	color:#000;
+}
+
+.select{
+	min-width:800px;
+}
+
+.highlight{
+	color:purple;
+}
+
+
+.fadeout{
+	position: absolute;
+	left:0px;
+    bottom: 0px;
+	height:60px;
+	width:100%;
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1) 95%); /* Standard syntax (must be last) */
+	pointer-events:none;
+}
+
+.signInData{
+	display:none;
+}
+
+@font-face {
+	font-family: "Nevis";
+	src: url("../fonts/nevis.ttf");
+}
+
+.mb-4{
+	max-height:0em;
+	margin-top:.4em;
+	padding:0em;
+	color: #000;
+}
