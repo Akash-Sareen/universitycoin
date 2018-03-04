@@ -1,9 +1,9 @@
-# University 
+# University Transct Info-System
 
 
 ![563](https://user-images.githubusercontent.com/25124428/36931923-50fcf30c-1ee6-11e8-9991-bc05d150d1dc.jpeg)
 
-blockchain is defined as a distributed system which records and stores transaction records. Blockchain more specifically is defined as a shared, immutable record of peer-to-peer transactions built from linked transaction blocks and stored in a digital ledger.
+Blockchain is defined as a distributed system which records and stores transaction records. Blockchain more specifically is defined as a shared, immutable record of peer-to-peer transactions built from linked transaction blocks and stored in a digital ledger.
 
 Blockchain is also similar to a database which stores information, however the main difference is that the data is located in a network of personal computers called nodes where there is no central entity such as a government or bank controlling the data.Instead, all data is shared publicly although the contents of each data is only accessible to those with permission.
 
